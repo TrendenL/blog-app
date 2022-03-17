@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    'nav content sidebar';
+    grid-template-columns: .5fr 5.5fr 2fr;
+}

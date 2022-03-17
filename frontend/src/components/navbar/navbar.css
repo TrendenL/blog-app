@@ -1,0 +1,78 @@
+.navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.nav {
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid black;
+    padding: 15px;
+}
+
+#nav-left,
+#nav-right {
+    flex: 3;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items i {
+    margin: 15px 0;
+}
+
+.nav-items span {
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 0;
+    margin: 15px;
+}
+
+.nav-items a:hover span {
+    overflow: visible;
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+}
+
+.profile i:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.modalContainer {
+    position: fixed;
+    bottom: 60px;
+    background-color: #fff;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+
+
+.modalContainer li {
+    list-style: none;
+    margin: 20px;
+}
+
+
